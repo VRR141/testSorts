@@ -2,6 +2,12 @@ import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
 import java.util.Arrays;
 
+
+//BUBBLE 50 thousands elements. Time: 4423 millis
+//MERGE 20 millions elements. Time: 3312 millis
+//QUICK 20 millions elements. Time: 1887 millis
+//LINE, values from: 0 to 1000000, 20millions elements. Time: 78 millis
+
 public class Main {
 
     public static void main(String[] args){
